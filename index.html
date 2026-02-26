@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Prefeitura de Lombadas</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* TOPO */
+header {
+    background: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: #0b3d6b;
+}
+
+.menu {
+    font-size: 28px;
+    cursor: pointer;
+}
+
+/* IMAGEM PRINCIPAL */
+.banner {
+    width: 100%;
+    height: 200px;
+    background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/São_Paulo_skyline.jpg/1200px-São_Paulo_skyline.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* BUSCA */
+.busca {
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.busca h2 {
+    margin-bottom: 20px;
+}
+
+.busca input {
+    width: 70%;
+    padding: 12px;
+    border-radius: 25px;
+    border: 2px solid #0b3d6b;
+}
+
+.busca button {
+    padding: 12px 20px;
+    border-radius: 25px;
+    border: none;
+    background: #0b3d6b;
+    color: white;
+    cursor: pointer;
+}
+
+/* SECRETARIAS */
+.secretarias {
+    padding: 20px;
+}
+
+.secretarias h2 {
+    text-align: center;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    margin: 15px auto;
+    max-width: 300px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+/* COOKIES */
+.cookies {
+    position: fixed;
+    bottom: 0;
+    background: white;
+    width: 100%;
+    padding: 15px;
+    box-shadow: 0 -2px 10px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+.cookies button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    background: #555;
+    color: white;
+    border-radius: 8px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">PREFEITURA DE LOMBADAS</div>
+    <div class="menu">☰</div>
+</header>
+
+<div class="banner"></div>
+
+<div class="busca">
+    <h2>O que você procura?</h2>
+    <input type="text" placeholder="Ex: IPTU, alvará, nota fiscal...">
+    <button>🔍</button>
+</div>
+
+<div class="secretarias">
+    <h2>Secretarias</h2>
+
+    <div class="card">Secretaria de Saúde</div>
+    <div class="card">Secretaria de Educação</div>
+    <div class="card">Secretaria de Obras</div>
+</div>
+
+<div class="cookies">
+    Usamos cookies para melhorar sua experiência.
+    <br>
+    <button onclick="this.parentElement.style.display='none'">Permitir</button>
+</div>
+
+</body>
+</html>
