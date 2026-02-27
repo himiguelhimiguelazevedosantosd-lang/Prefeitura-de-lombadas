@@ -21,12 +21,11 @@
 Site da prefeitura Municipal de lombadas 
 <div class="logo">PREFEITURA DE LOMBADAS</div>
 <head>
-<meta charset="UTF-8">
-<meta name="google-site-verification" content="ABC123XYZ" />
-<title>Prefeitura de Lombadas</title>
- <head><meta name="google-site-verification" content="pxyBTvv05mJ-GagU5R4MnNnR14yO4INx1wIuRiMWtJo" />
-<meta name="google-site-verification" content="SEU_CODIGO_AQUI" />
-<title>Prefeitura de Lombadas</title>
-<head><meta name="google-site-verification" content="pxyBTvv05mJ-GagU5R4MnNnR14yO4INx1wIuRiMWtJo" />
-<meta name="google-site-verification" content="SEU_CODIGO_AQUI" />
-<title>Prefeitura de Lombadas</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Meta tag do Google para verificação -->
+  <meta name="google-site-verification" content="pxyBTvv05mJ-GagU5R4MnNnR14yO4INx1wIuRiMWtJo" />
+  
+  <title>Prefeitura de Lombadas</title>
+</head>
