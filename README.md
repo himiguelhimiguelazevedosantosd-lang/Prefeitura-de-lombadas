@@ -27,3 +27,6 @@ Site da prefeitura Municipal de lombadas
  <head><meta name="google-site-verification" content="pxyBTvv05mJ-GagU5R4MnNnR14yO4INx1wIuRiMWtJo" />
 <meta name="google-site-verification" content="SEU_CODIGO_AQUI" />
 <title>Prefeitura de Lombadas</title>
+<head><meta name="google-site-verification" content="pxyBTvv05mJ-GagU5R4MnNnR14yO4INx1wIuRiMWtJo" />
+<meta name="google-site-verification" content="SEU_CODIGO_AQUI" />
+<title>Prefeitura de Lombadas</title>
